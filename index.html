@@ -1,0 +1,691 @@
+<!doctype html>
+
+<html>
+<head><title>Menu1</title>
+
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="styl.css" rel = "stylesheet"  / > 
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+
+
+
+
+
+
+
+<script>
+
+  alert("Welcome")
+  
+  </script>
+
+
+<!--
+We are Doing RWD :- Responsive Meb Design
+1. Identify the break point (eg mobile,Tablet,Desktop)
+2. Mobile First 
+3. use GridSytem (BootStrap)  or Flex and Media Query
+-->
+
+
+<style>
+/*                           Media Query For break Point                          */
+
+/* Extra small devices (phones, 600px and down)   */
+
+@media only screen and (max-width: 600px)
+{
+
+#innerbox,#text{
+  width:70%;
+  margin:auto;
+}  
+  
+
+#mask{
+  width:60%
+  margin:auto;
+}
+
+
+#header{
+  width:90%;
+margin:auto;
+}
+
+#main1,#middlebar{
+    flex-direction:column;
+    width: 90%;
+  
+}
+
+
+#divpic
+{
+width:25%;
+display:block;
+justify-content:center;
+align-items:center;
+flex-direction: column;
+flex-wrap:wrap;
+flex-direction: column;
+}
+
+.picstyle
+{
+width:100px;
+height:80px;
+border-radius:13px;
+box-shadow:4px 7px 7px 0px gray;
+cursor:pointer;
+margin:10px;
+flex-wrap:wrap;
+flex-direction: column;
+transition: 0.6s all ease-in-out;
+}
+
+
+#banner2{
+  width:280px;
+  height:350px;
+  margin: auto;
+
+}
+
+#wow{
+
+  width:40%;
+display:block;
+justify-content:center;
+justify-content:start;
+align-items:center;
+flex-wrap:wrap;
+flex-direction: column;
+}
+
+#inner-box,#text,#author-info{
+  width:80%;
+  margin:auto;
+}
+
+
+ }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+
+@media only screen and (min-width: 600px)
+ {
+
+ body{background:ellow}
+#footer
+{
+flex-direction:column;
+}
+#leftbar{
+width:100%;
+}
+#middlebar{
+width:100%;
+}
+
+#rightbar{
+width:100%;
+}
+
+#mcopy, #sitemap, #socialmedia
+{
+width:100%;
+}
+
+img{
+width:100%;
+height:100%;
+}
+
+#main1{
+    flex-direction:column;
+}
+
+.header-content h1 {
+
+font-size:60px ;
+width: 60%;
+margin: auto;
+
+}
+
+.header-content h2 {
+
+font-size:50px ;
+margin:auto;
+}
+
+#inner-box,#text,#author-info{
+  width:85%;
+  margin:auto;
+}
+
+}
+
+
+/*  Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px)
+ {
+ body{background:yan}
+header{height:400px;}
+#banner{height:100%;}
+#logo{height:50%}
+
+#icon
+{
+display:none;
+}
+
+
+img{
+width:100vw;
+height:100vh;
+}
+
+#main1
+{
+ flex-direction:row;
+ flex-flow:row wrap;
+}
+
+
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px)
+ {
+ body{background:range;}
+header{height:300px;}
+
+
+
+#inner-box,#text,#author-info{
+  width:75%;
+  margin:auto;
+}
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) 
+{
+ body{background:white}
+header{width:100%;
+height:800px;
+}
+
+
+#footer
+{
+ flex-direction:row;
+}
+
+
+#middlebar{
+width:98%;
+}
+
+
+#mcopy, #sitemap, #socialmedia
+{
+width:100%;
+}
+
+#main,middlebar{
+    flex-direction:column;
+    text-align:center;
+}
+
+ul{
+list-style:none;
+margin:auto;
+background:black;
+text-align:center;
+font-size:20px;
+margin:auto;
+
+}
+
+#inner-box,#text,#author-info{
+  width:75%;
+  margin:auto;
+}
+
+
+
+} 
+
+
+
+</style>
+
+
+<body>
+
+<div id="zz">
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Photos</a>
+<ul class="dropdown">
+<li><a href="sli.html">Best of Year</a></li>
+<li><a href="photos.html">Photos</a></li>
+<li><a href="slides.html">Why Us ?</a></li>
+</ul>
+<li><a href="#about">About </a></li>
+<li><a href="#review">Review</a></li>
+<li><a href="iframe.html">Map</a></li>
+<li><a href="#">Services</a>
+<ul class="dropdown">
+<li><a href="form.html">Book Appointment</a></li>
+</ul>
+</li>
+</div>
+
+</body>
+
+  
+<header>
+
+<div class="header-content">
+   <h2>We deliver memorable experience</h2>
+   <div class="line"></div>
+   <h1>Namaste</h1>
+   <a href="form.html" class="cl">Book Us</a>
+</div>
+
+</header>
+
+<body>
+<section class="wow">
+  <div class="car">
+    <div class="car-img car-4"></div>
+    <h2>Next</h2>
+    <a>Next</a>
+  </div>
+
+  <div class="car">
+    <div class="car-img car-1"></div>
+    <h2>Wedding Planner</h2>
+    <a href="p1.html">Read</a>
+  </div>
+  
+  <div class="car">
+    <div class="car-img car-2"></div>
+    <h2>Decorations</h2>
+    <a href="p2.html">Read</a>
+  </div>
+
+  <div class="car">
+    <div class="car-img car-3"></div>
+    <h2>Corporate Events</h2>
+    <a href="p3.html">Read</a>
+
+  </div>
+
+
+  <div class="car">
+    <div class="car-img car-5"></div>
+    <h2>Previous</h2>
+    <a>Next</a>
+
+  </div>
+
+
+</section>
+
+</body>
+
+
+
+
+<a name="about">
+<div id="main1" >
+  <div id="middlebar" >
+    <h2 style="text-align:center;background:#5adcf;color:Black;font-family:Helvetica, sans-serif;font-size:30px;
+    box-shadow:10px 10px 10px gay"><u>About Us</u></h2>
+    
+
+
+<p>
+  TooGood is an undisputed leader in all types of corporate events, comprising meetings, conferences, award shows, meetups, and more. As corporate event organizers in Delhi NCR, we make sure to include comprehensive details for a perfect corporate event setup.
+  We operate as per our clients’ requisite and needs, to provide 100% satisfaction.
+</p>
+
+
+<p>
+  TooGood event is a popular name in celebrity management companies in Delhi NCR. We are the trend setters when it comes to the idea of big fat celebrity promotional events. With our vast network and connection with famous celebrities nationwide and globally, we ensure well-coordinated and managed celebrity services with super ease.
+</p>
+
+</a>
+</div>
+
+
+ </div>
+<p>
+<i class="fa-solid fa-money-check-dollar fa-flip" style="--fa-animation-duration: 3s;"></i>
+</p>
+
+ <div id="main1" >
+  <div  id="middlebar">
+    <h2 style="text-align:center;background:#5adcf;color:Black;font-family:Helvetica, sans-serif;font-size:30px;
+    box-shadow:10px 10px 10px gay"><u>Industry</u></h2>
+    
+<p>
+  
+  The process of planning and coordinating the event is usually referred to as event planning and which can include budgeting, scheduling, site selection, acquiring necessary permits, coordinating transportation and parking, arranging for speakers or entertainers, arranging decor, event security, catering, coordinating with third-party vendors, and emergency plans. Each event is different in its nature so process of planning and execution of each event differs on basis of the type of event.
+</p>
+<p>
+  Event management might be a tool for strategic marketing and communication, used by companies of every size. Companies can benefit from promotional events as a way to communicate with current and potential customers. For instance, these advertising-focused events can occur as press conferences, promotional events, or product launches.
+
+Event managers may also use traditional news media in order to target their audience, hoping to generate media coverage which will reach thousands or millions of people. 
+
+An event venue may be an onsite or offsite location. The event manager is responsible for operations at a rented event or entertainment venue as they are coordinating directly with the property owner. An event manager will monitor all aspects of the event on-site. Some of the tasks listed in the introduction may pass to the venue, but usually at a cost.
+</p>
+
+</div>
+
+
+
+<h1 style="font-family:Helvetica, sans-serif black;font-size:30px;color:black;
+text-align:center">Preferred Choice Of India's Leading Brands</h1>
+
+
+
+<body>
+
+<div id="mask">
+    
+<div id="news">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A highly experienced and educated team of the individuals that know how to handle all the possibilities of problems and hassles.High-Quality, Quick and reliable services on the most affordable prices in the industry of event management.Continuously providing different ideas to make the events attractive and indulging. We are using the latest techniques to create the required environment in your event. Showtime events is known for its unique and innovative approach towards every event. We never use traditional methods to establish an event setup.
+    </div>
+    </div>
+
+</body>
+
+
+
+<div id ="divpic">
+
+  <div style="margin:auto ">
+  <a href="#">
+  <img src="images/1.jpg"   alt="3" class="picstyle" >
+  </a>
+  </div>
+
+  <div style="margin:auto ">
+  <a href="#">
+  <img src="images/7.jpg"   alt="3" class="picstyle" >
+  </a>
+  </div>
+
+  <div style="margin:auto ">
+  <a href="#">
+  <img src="images/21.jpg"  alt="3" class="picstyle" >
+  </a>
+  </div>
+  
+  <div style="margin:auto ">
+  <img src="images/5.jpg"   alt="3" class="picstyle" >
+  </a>
+  </div>
+
+  <div style="margin:auto ">
+  <a href="#">
+  <img src="images/6.jpg"   alt="3" class="picstyle" >
+  </a>
+  </div>
+
+  <div style="margin:auto ">
+  <a href="#">
+  <img src="images/25.jpg"  alt="3" class="picstyle" >
+  </a>
+  </div>
+</div>
+
+<div id="banner2">
+
+  <div id="topad" >
+  Plan Your Event
+  </div>
+</div>
+
+<br>
+<br>
+<br>
+  
+
+<body>
+  
+  <div class="cont">
+
+<img src="images/3.jpg" width="100%" alt="3" title="Hall" class="pic1" > 
+
+<img src="images/10.jpg" width="100%" alt="3" title="celebrity" class="pic1" > 
+
+<img src="images/11.jpeg" width="100%" alt="3" title="Pre-Wedding" class="pic1" > 
+
+<img  src="images/35.jpg" width="100%" alt="3" title="Corporate" class="pic1" > 
+
+<img  src="images/28.jpg" width="100%" alt="3" title="Destination" class="pic1" > 
+
+<img  src="images/24.jpg" width="100%" alt="3" title="Wedding" class="pic1" >
+
+<img  src="images/36.jpg" width="100%" alt="3" title="Club" class="pic1" >
+
+<img  src="images/32.jpg" width="100%" alt="3" title="Banquet" class="pic1" >
+
+
+</div>
+
+</body>
+
+<body>
+
+
+<a name="review">
+  <div class="inner-box">
+    <div class="text">"TooGood Event is a well-integrated Event Management Company that is flexible enough to transform an event that could render diverse benefits to an organization with less amount of time and money investment. <br>
+      The highly passionate team has perpetually acknowledged our targets as its own."</div>
+    <div class="author-info">
+      <h3>Kartik Sharma</h3>
+</a>
+</div>
+
+<p>
+
+</p>
+
+<div class="inner-box">
+  <div class="text">You guys have wowed us in every way. Thank you ShowTime Event for making our dreams come true.<br>
+    It was even better than we imagined.</div>
+  <div class="author-info">
+    <h3>Vini Mehta</h3>
+
+</div>
+
+<p>
+
+</p>
+
+<div class="inner-box"> 
+<div class="text">"TooGood Event is a well-integrated Event Management Company that is flexible enough to transform an event that could render diverse benefits to an organization with less amount of time and money investment. <br>
+        The highly passionate team has perpetually acknowledged our targets as its own."</div>
+<div class="author-info">
+<h3>Suman Kumar </h3>
+</div>
+
+<p>
+
+</p>
+
+<h2 style="font-family:Helvetica, sans-serif black;font-size:30px;color:green;
+text-align:center">Event Management Services</h2>
+
+<body>
+  <section class="wow3">
+    <div class="car3">
+      <div class="car3-img "></div>
+      <h2>Wedding Planner</h2>
+      
+    </div>
+    
+    <div class="car3">
+      <div class="car3-img "></div>
+      <h2>Corporate Event organizer</h2>
+      
+    </div>
+  
+    <div class="car3">
+      <div class="car3-img "></div>
+      <h2>Wedding Decorators</h2>
+     
+
+  
+    </div>
+
+
+    <div class="car3">
+      <div class="car3-img "></div>
+      <h2>Party organizer</h2>
+      
+    </div>
+    
+    <div class="car3">
+      <div class="car3-img "></div>
+      <h2>Conferences Event Organizer</h2>
+      
+    </div>
+  
+    <div class="car3">
+      <div class="car3-img "></div>
+      <h2>Party Planner</h2>
+      
+      </div>
+
+      <div class="car3">
+          <div class="car3-img "></div>
+          <h2>Party Organizer</h2>
+          
+          </div>
+
+          <div class="car3">
+              <div class="car3-img "></div>
+              <h2>Event Planners</h2>
+              
+              </div>
+
+</section>      
+
+</body>
+
+
+<footer>
+
+  &#8482;  
+<div id="mcopy">CopyRight<ol style="list-style:none:padding:0px">
+<li> Details
+</li>
+<li> Students
+</li>
+<li> Rules
+</li>
+<li>Deals
+</li>
+</ol>
+<li><a href="https://rumble.com/c/c-6816266/"><i class="fa-brands fa-square-youtube"></i></a></li>
+<p>
+</p>
+&#169
+<ol style="list-style-image:url(images/92.png)">
+<li>Company</li>
+<li>Resrved Category</li>
+<li>Other Brands</li>
+<li>Cases</li>
+</ol>
+</div>
+
+
+&#174;
+<div id="sitemap">Site Map<ol style="list-style:none;padding:0px">
+<li> Details
+</li>
+<li> Students
+</li>
+<li> Rules
+</li>
+<li>Deals
+</li>
+</ol>
+
+
+  <li><a href="https://www.instagram.com/arenadelhi/"><i class="fa-brands fa-instagram"></i></a></li>
+
+
+  <li>Corporate headquarters</li>
+  <li>A- 50 &amp; 51, 3rd Floor, Nagar,,Delhi-1100xx</li>
+  <li>HEAD OFFICE</li>
+  <li>Plot No. A-56, 1st Floor, Park Road, New Delhi 1100xx</li>
+  <li>info@showtimeevent.com</li>
+  </ul>
+
+
+</footer>
+
+<div class="title">Support Team</div>
+  <h3>+91 - 98XXXXXXX</h3>
+  <ul>
+  <li>+91 - 70XXXXXXX</li>
+  </ul>
+</div>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
